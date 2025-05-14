@@ -1,0 +1,17 @@
+com\skincare\api\controller\ProductController.class
+com\skincare\repository\InteractionRepository.class
+com\skincare\api\model\Interaction.class
+com\skincare\api\model\Product.class
+com\skincare\api\model\KnownIngredient.class
+com\skincare\SkincareCompatibilityApiApplication.class
+com\skincare\api\dto\FollowUpCheckResponse.class
+com\skincare\repository\ProductRepository.class
+com\skincare\api\controller\ProductIngredientController.class
+com\skincare\api\model\ProductIngredient.class
+com\skincare\api\controller\InteractionController.class
+com\skincare\api\model\Ingredient.class
+com\skincare\repository\KnownIngredientRepository.class
+com\skincare\repository\ProductIngredientRepository.class
+com\skincare\api\controller\KnownIngredientController.class
+com\skincare\service\InteractionService.class
+com\skincare\service\ProductIngredientService.class
