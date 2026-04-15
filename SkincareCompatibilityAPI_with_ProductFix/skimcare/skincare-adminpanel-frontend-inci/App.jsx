@@ -129,7 +129,13 @@ function App() {
   }, [ingredientsInput])
 
   const handleLogin = () => {
-    if (passwordInput === "REDACTED_ADMIN_PASSWORD") {
+    // TODO: Move authentication to server-side. This client-side check is insecure.
+    const adminPassword = import.meta.env.VITE_ADMIN_PASSWORD
+    if (!adminPassword) {
+      alert("Admin password not configured. Set VITE_ADMIN_PASSWORD in .env")
+      return
+    }
+    if (passwordInput === adminPassword) {
       setIsLoggedIn(true)
     } else {
       alert("Feil passord")

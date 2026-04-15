@@ -1,1 +1,25 @@
-SkincareCompatibilityAPI_with_ProductFix/skimcare/SkincareCompatibilityAPI_with_AdminPanel/SkincareCompatibilityAPI/src/main/resources/application.properties
+# Build artifacts
+**/target/
+*.class
+*.jar
+*.war
+
+# Node
+**/node_modules/
+dist/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+application.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
